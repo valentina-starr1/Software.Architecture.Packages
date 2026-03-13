@@ -94,7 +94,3 @@ This project is licensed under the terms specified in the MIT LICENSE file.
 ## Support
 
 For support or questions, please open an issue in this repository and include reproduction details when possible.
-## Documentation Notes
-
-- This repository may include documentation-only trace files used to demonstrate commit history granularity for review workflows.
-
