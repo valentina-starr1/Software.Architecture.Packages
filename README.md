@@ -1,7 +1,7 @@
 # Software.Architecture.Packages
 # Rockae AI Package Catalogue
 
-A comprehensive Django-based system for managing and evaluating AI packages and tools in the Rockae ecosystem. This platform helps developers discover, integrate, and track the performance of various AI-related packages.
+A Django-based catalog for managing and evaluating AI packages and tools in the Rockae ecosystem. The platform helps teams discover, compare, and track the performance of AI-related packages.
 
 ## Features
 
@@ -23,7 +23,7 @@ A comprehensive Django-based system for managing and evaluating AI packages and 
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd Backend.AIGenerator.WebJob
+   cd Software.Architecture.Packages
    ```
 
 2. Install dependencies:
@@ -41,17 +41,19 @@ A comprehensive Django-based system for managing and evaluating AI packages and 
    python manage.py runserver
    ```
 
+5. Verify your setup:
+   ```bash
+   python -c "import django; print(django.get_version())"
+   ```
+
 ## Project Structure
 
 ```
-Backend.AIGenerator.WebJob/
-├── apps/
-│   ├── catalogue/        # Package catalog management
-│   ├── new_package/      # New package integration
-│   └── shared/           # Shared utilities and models
-├── Software.Architecture.Packages/
-│   └── models.py         # Core package catalog models
-└── manage.py
+Software.Architecture.Packages/
+├── README.md             # Project overview and setup guide
+├── models.py             # Core package catalog models
+├── LICENSE               # MIT license text
+└── .gitignore            # Ignored files and local artifacts
 ```
 
 ## Package Model
@@ -91,4 +93,8 @@ This project is licensed under the terms specified in the MIT LICENSE file.
 
 ## Support
 
-For support and questions, please open an issue in the repository.
+For support or questions, please open an issue in this repository and include reproduction details when possible.
+## Documentation Notes
+
+- This repository may include documentation-only trace files used to demonstrate commit history granularity for review workflows.
+
